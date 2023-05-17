@@ -20,6 +20,6 @@ class Database {
 
         return $result;
     }
-};
+}
 
 ?>
