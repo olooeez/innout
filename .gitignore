@@ -1,2 +1,6 @@
 # Ignorar as informações do banco na produção
 env.ini
+
+# Composer
+composer.phar
+/vendor/
