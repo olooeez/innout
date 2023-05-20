@@ -1,8 +1,6 @@
 <?php
 
-require_once(dirname(__FILE__) . '/../config/config.php');
-
-require_once(MODEL_PATH . '/model.php');
+loadModel('model');
 
 class User extends Model {
     protected static $tableName = 'users';
